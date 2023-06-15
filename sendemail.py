@@ -84,12 +84,12 @@ def send_email_with_attachments(sender_email, sender_password, receiver_email, s
 
 if __name__ == '__main__':   
     # Example usage
-    sender_email = "k.moksud@gmail.com"
-    sender_password = "mjkzyoyyzcwkvmwr"
-    receiver_email = "kmahmed777@gmail.com"
+    sender_email = ""
+    sender_password = ""
+    receiver_email = ""
     subject = "Application for job"
     message = "Hello, please find the attached file."
     attachment_path = "Cover_Letter.docx"  # Replace with the path to your DOCX file
-    attachment_paths = ["Cover_Letter.docx", "cv@moksud.docx"]  # Replace with the paths to your DOCX files
+    attachment_paths = ["", ""]  # Replace with the paths to your DOCX files
 
     send_email_with_attachments(sender_email, sender_password, receiver_email, subject, message, attachment_paths)
